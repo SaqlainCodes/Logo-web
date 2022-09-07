@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-section{
+    height: auto;
+    border: 1px solid black;
+}
+.Dashboard{
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    color: white;
+    padding: 28px 0px;
+  
+}
+.heading{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.img-row{
+    justify-content: space-around;
+}
+.img-col{
+    display: flex;
+    justify-content: center;
+}
+.img-border{
+    height: 200px;
+    border: 1px solid black;
+    
+    
+}
+.para{
+    border: 1px solid black;
+    height:200px;
+    overflow: auto;
+    padding: 20px 10px;
+}
